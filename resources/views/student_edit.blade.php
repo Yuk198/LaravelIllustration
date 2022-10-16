@@ -17,7 +17,7 @@
 				<div class="control-group col-6 text-left mt-2">
 					<label for="body">Birthday</label>
 					<div>
-						<textarea id="birthday" class="form-control mb-4" name="birthday"
+						<input type="date" id="birthday" class="form-control mb-4" name="birthday"
 							placeholder="Enter birthday" rows="" required></textarea>
 					</div>
 				</div>
