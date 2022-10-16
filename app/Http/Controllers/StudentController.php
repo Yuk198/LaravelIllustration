@@ -41,7 +41,8 @@ class StudentController extends Controller
         return redirect('student/' . $student->id . '/edit');
     }
 
-    public function delete_student(Student $student){
+    public function delete_student($id){
+        $student = Student::find($id);
         $student->delete();
         return redirect('student');
     }
